@@ -49,6 +49,7 @@ class ChessQueen
         for (k = st, p = 1; k < 8; k++, p = 1)
         {
             for (i = 0; i < n; i++)
+            {
                 for (j = 0; j < 8; j++)
                 {
                     if (Board[i, j] == 1)
@@ -61,6 +62,7 @@ class ChessQueen
 
                     }
                 }
+            }
             if (p != 0)
             {
                 Board[n, k] = 1;
