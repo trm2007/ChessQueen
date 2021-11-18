@@ -6,7 +6,6 @@ See https://aka.ms/new-console-template for more information
 
 *******************************************************************************/
 
-using System;
 class ChessQueen
 {
     static readonly char[] Alphabetical = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
